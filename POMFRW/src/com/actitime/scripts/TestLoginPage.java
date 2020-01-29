@@ -13,6 +13,7 @@ public class TestLoginPage {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://localhost/login.do");
+		System.out.println("github");
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName("admin");
